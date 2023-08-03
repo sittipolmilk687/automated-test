@@ -99,16 +99,16 @@ Select List plan
 
 *** Test Cases ***
 
-# TC001-register-pass
-#     Open Web Browser
-#     Input Data for register pass
-#     Close Browser
+TC001-register-pass
+    Open Web Browser
+    Input Data for register pass
+    Close Browser
 
-# TC002-reset-data
-#     Open Web Browser
-#     Input Data for register
-#     Click Element    ${locator_btn_reset}
-#     Close Browser
+TC002-reset-data
+    Open Web Browser
+    Input Data for register
+    Click Element    ${locator_btn_reset}
+    Close Browser
 
 TC003-vetify-fail-firstname
     Open Web Browser

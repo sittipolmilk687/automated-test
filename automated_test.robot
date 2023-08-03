@@ -35,7 +35,7 @@ Testcases_Automate
     Click Element    xpath=${select_thailand_txt}
 ### step 4 Select Drop Down List
     Wait Until Element Is Visible    xpath=${locator_static_dropdown_list}    2s
-    Select From List By Label   id=${locator_select_stastic_dropdown_list}    API
+    Select From List By Label   id=${locator_select_stastic_dropdown_list}    Appium
 ### step 5 Check Option 1 and Option 3
     Wait Until Element Is Visible    xpath=${locator_checkbox_menu}   2s
     Select Checkbox    checkBoxOption1
